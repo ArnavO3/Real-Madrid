@@ -1,0 +1,136 @@
+p{
+    color: rgb(40, 200, 330);
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 30px; /*padding left/right top/bottom etc can also be used
+    for same values*/
+}
+#list{           /*for id use # and for class use . */
+    color: rgba(1, 100, 500, 0.775);
+    /* font-style: oblique; */
+    margin-left: 10px;
+}                  
+#list_heading{
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: fit-content;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+/* .btn{
+    background-color: rgba(0, 0, 255, 0.575);
+    font-size: ....;
+} */
+
+a{
+    text-decoration: none; /*for no underline on 'here'.
+    can apply all func like colour etc here also.*/
+}
+.navbar{
+    height: 60px;
+    border-radius: 20px; 
+    /* background-color: whitesmoke; */
+    height: 90px;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 15px;
+    padding-top: 15px;
+}
+.navbar ul{
+    overflow: none;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgba(0, 0, 255, 0.575);
+}
+#rmcf{
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/06/Real-Madrid-Logo-700x394.png");
+    background-repeat: no-repeat;
+/*     background-color: white; */
+    background-position: left;
+    background-size: 150px;
+    color: rgba(0, 0, 0);
+    float: left;
+/*     border: 2px solid;
+    border-radius: 5px; 
+    text-align: center; */
+    margin: 8px;
+    padding: 10px; 
+    padding-left: 110px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+/* .img{
+    height: 300px;
+    width: 740px;
+    filter: invert(100%);
+} */
+
+.search{
+    float: right;
+    padding: 25px;
+}
+.navbar input{
+    border: 3px solid rgba(0, 0, 255, 0.575);
+    border-radius: 7px;
+    padding: 5px;
+}
+.navbar li a:hover , .navbar li a.active{
+    /* text-decoration: underline; */
+    color: rgb(181, 144, 240);
+    background-color: black;
+    border-radius: 10px;
+}
+header{
+    margin: auto;
+    /* border: rgba(0, 0, 255, 0.575) 3px solid;
+    border-radius: 10px;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/06/Real-Madrid-Logo-700x394.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    background-size: 190px; */
+}
+h1{
+    color: rgb(16, 111, 128);
+    text-align: center;
+}
+/* #rm{
+    height: 60px;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+} */
+
+body{
+    background: url("https://wallpaperaccess.com/full/3316418.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#insta{ 
+    height: 30px;
+}
+#fb{
+    height: 27px;
+}
+#twitter{
+    height: 27px;
+}
+#yt{
+    height: 27px;
+}
+#wiki{
+    height: 27px;
+}
+.social_media{
+    float: right;
+    padding: 3px;
+}
+
